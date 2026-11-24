@@ -1,0 +1,5 @@
+{
+  "name": "claude-azure-resources",
+  "owner": { "name": "Fabio Santini" },
+  "plugins": [{ "name": "azure-resources", "source": "./" }]
+}

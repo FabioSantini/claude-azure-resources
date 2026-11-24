@@ -1,0 +1,26 @@
+{
+  "name": "azure-resources",
+  "version": "0.1.0",
+  "description": "Azure resources used by this project, as cards",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "azPython": {
+      "type": "string",
+      "title": "Azure CLI python",
+      "description": "Path to the python.exe bundled with the Azure CLI",
+      "default": "C:\\Program Files\\Microsoft SDKs\\Azure\\CLI2\\python.exe"
+    },
+    "refreshParallel": {
+      "type": "number",
+      "title": "Refresh parallelism",
+      "description": "How many resources are refreshed at the same time",
+      "default": 4
+    },
+    "memoryTools": {
+      "type": "string",
+      "title": "Memory tools",
+      "description": "Optional: comma-separated MCP tool names the Scan agent may call to search your project memory (read-only tools only), e.g. mcp__my-memory__memory_search",
+      "default": ""
+    }
+  }
+}
